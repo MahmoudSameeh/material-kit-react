@@ -146,12 +146,12 @@ const Services = () => {
                                         {t(`services.${service.key}.title`)} 
                                     </Typography>
                                     <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                                        {t(`services.${service.key}.description`)}  
+                                        {t(`services.${service.key}.description`)}  {/* Translated description */}
                                     </Typography>
                                 </CardContent>
                                 <CardActions>
                                     <Button size="small" href={service.link}>
-                                        {t("services.learnMore")}
+                                        {t("services.learnMore")}  {/* Translated button text */}
                                     </Button>
                                 </CardActions>
                             </Card>

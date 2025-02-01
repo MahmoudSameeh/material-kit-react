@@ -72,6 +72,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "ajv": "^7.2.4",
     "eslint": "8.38.0",
     "eslint-config-prettier": "8.8.0",
@@ -85,5 +86,4 @@
   },
   "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
   "homepage": "https://MahmoudSameeh.github.io/material-kit-react"
-
 }
