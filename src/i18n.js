@@ -21,7 +21,7 @@ i18n
       escapeValue: false, // not needed for react as it escapes by default
     },
     backend: {
-        loadPath: `http://localhost:3000/material-kit-react/locales/{{lng}}/translation.json`,
+        loadPath: `https://mahmoudsameeh.github.io/material-kit-react/locales/{{lng}}/translation.json`,
     }
   });
 

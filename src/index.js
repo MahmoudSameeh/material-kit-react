@@ -17,8 +17,7 @@ import React from "react";
 import * as ReactDOMClient from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import App from "App";
-import { I18nextProvider } from 'react-i18next';
-import i18n from './i18n'; // Import i18n configuration
+
 
 const container = document.getElementById("root");
 
@@ -27,8 +26,6 @@ const root = ReactDOMClient.createRoot(container);
 
 root.render(
   <BrowserRouter basename="/material-kit-react">
-    <React.StrictMode>
       <App />
-    </React.StrictMode>
   </BrowserRouter>
 );
