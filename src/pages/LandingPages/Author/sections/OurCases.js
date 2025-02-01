@@ -35,7 +35,7 @@ function OurCases() {
   return (
     <>
       <Box sx={{ backgroundColor: "background.default", padding: 6 }}>
-        <Typography sx={{mt:7}} variant="h3" color="textPrimary" align="center" gutterBottom>
+        <Typography sx={{mt:7}} variant="h3" color="Primary" align="center" gutterBottom>
           {t("cases.title")}
         </Typography>
         <Typography variant="body1" color="textSecondary" align="center" paragraph>
@@ -56,7 +56,7 @@ function OurCases() {
               >
                 <img src={caseItem.image} alt={caseItem.title} style={{ width: "100%", height: "auto" }} />
                 <Box sx={{ padding: 2 }}>
-                  <Typography variant="h5" color="textPrimary" gutterBottom>
+                  <Typography variant="h5" color="Primary" gutterBottom>
                     {caseItem.title}
                   </Typography>
                   <Typography variant="body2" color="textSecondary" paragraph>

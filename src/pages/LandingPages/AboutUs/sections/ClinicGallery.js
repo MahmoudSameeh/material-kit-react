@@ -15,7 +15,7 @@ function GallerySection() {
         textAlign: 'center',
       }}
     >
-      <MKTypography variant="h3" color="textPrimary" gutterBottom>
+      <MKTypography variant="h3" color="Primary" gutterBottom>
         Our Clinic & Happy Patients
       </MKTypography>
       <MKTypography variant="body1" color="textSecondary" paragraph>
@@ -24,7 +24,7 @@ function GallerySection() {
 
       {/* Clinic Gallery */}
       <MKBox sx={{ marginBottom: 4 }}>
-        <MKTypography variant="h4" color="textPrimary" gutterBottom>
+        <MKTypography variant="h4" color="Primary" gutterBottom>
           Clinic Environment
         </MKTypography>
         <Grid container spacing={4} justifyContent="center">
@@ -81,7 +81,7 @@ function GallerySection() {
 
       {/* Patient Testimonials Section */}
       <MKBox>
-        <MKTypography variant="h4" color="textPrimary" gutterBottom>
+        <MKTypography variant="h4" color="Primary" gutterBottom>
           Patient Testimonials
         </MKTypography>
         <Grid container spacing={4} justifyContent="center">
@@ -95,7 +95,7 @@ function GallerySection() {
                 sx={{ width: 100, height: 100, borderRadius: '50%', margin: 'auto' }}
               />
               <CardContent>
-                <MKTypography variant="h6" color="textPrimary" gutterBottom>
+                <MKTypography variant="h6" color="Primary" gutterBottom>
                   John Doe
                 </MKTypography>
                 <MKTypography variant="body2" color="textSecondary">
@@ -114,7 +114,7 @@ function GallerySection() {
                 sx={{ width: 100, height: 100, borderRadius: '50%', margin: 'auto' }}
               />
               <CardContent>
-                <MKTypography variant="h6" color="textPrimary" gutterBottom>
+                <MKTypography variant="h6" color="Primary" gutterBottom>
                   Jane Smith
                 </MKTypography>
                 <MKTypography variant="body2" color="textSecondary">
@@ -133,7 +133,7 @@ function GallerySection() {
                 sx={{ width: 100, height: 100, borderRadius: '50%', margin: 'auto' }}
               />
               <CardContent>
-                <MKTypography variant="h6" color="textPrimary" gutterBottom>
+                <MKTypography variant="h6" color="Primary" gutterBottom>
                   Mark Johnson
                 </MKTypography>
                 <MKTypography variant="body2" color="textSecondary">

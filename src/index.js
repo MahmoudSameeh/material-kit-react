@@ -27,8 +27,8 @@ const root = ReactDOMClient.createRoot(container);
 
 root.render(
   <BrowserRouter basename="/material-kit-react">
-    <I18nextProvider i18n={i18n}>
-    <App />
-    </I18nextProvider>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
   </BrowserRouter>
 );

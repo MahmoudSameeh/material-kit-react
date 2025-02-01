@@ -12,7 +12,7 @@ function SpecialOffers() {
         textAlign: 'center',
       }}
     >
-      <MKTypography variant="h3" color="textPrimary" gutterBottom>
+      <MKTypography variant="h3" color="Primary" gutterBottom>
         Special Offers & Promotions
       </MKTypography>
       <MKTypography variant="body1" color="textSecondary" paragraph>

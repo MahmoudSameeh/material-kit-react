@@ -34,10 +34,11 @@ import footerRoutes from "footer.routes";
 import FloatingIcons from "components/FloatingIcons/FloatingIcons";
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from "components/LanguageSwitcher/LanguageSwitcher";
+import './i18n'; // Import i18n configuration
 
 export default function App() {
   const { pathname } = useLocation();
-  const { i18n } = useTranslation();
+  const { t,i18n } = useTranslation();
 
   useEffect(() => {
     const lang = i18n.language; // Get the current language
@@ -65,7 +66,7 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <LanguageSwitcher  sx={{
+       <LanguageSwitcher  sx={{
          position: 'fixed',  // Makes the button fixed on the screen
          top: 10,            // Distance from the top
          left: 10,           // Distance from the left
