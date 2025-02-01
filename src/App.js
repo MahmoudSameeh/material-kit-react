@@ -25,13 +25,24 @@ import CssBaseline from "@mui/material/CssBaseline";
 // Material Kit 2 React themes
 import theme from "assets/theme";
 import Presentation from "layouts/pages/presentation";
+import DefaultNavbar from "examples/Navbars/DefaultNavbar";
+import DefaultFooter from "examples/Footers/DefaultFooter";
 
 // Material Kit 2 React routes
 import routes from "routes";
+import footerRoutes from "footer.routes";
+import FloatingIcons from "components/FloatingIcons/FloatingIcons";
+import { useTranslation } from 'react-i18next';
+import LanguageSwitcher from "components/LanguageSwitcher/LanguageSwitcher";
 
 export default function App() {
   const { pathname } = useLocation();
+  const { i18n } = useTranslation();
 
+  useEffect(() => {
+    const lang = i18n.language; // Get the current language
+    document.body.dir = lang === 'ar' ? 'rtl' : 'ltr'; // Apply RTL or LTR based on language
+  }, [i18n.language]);
   // Setting page scroll to 0 when changing the route
   useEffect(() => {
     document.documentElement.scrollTop = 0;
@@ -54,11 +65,22 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
+      <LanguageSwitcher  sx={{
+        position: 'absolute',  // Fix to the top left
+        top: 10,               // Distance from top
+        left: 10,              // Distance from left
+        zIndex: 1000,          // Ensure it's above other elements
+        backgroundColor: 'white', // Optional: makes it visible
+        boxShadow: 1,            // Optional: adds subtle shadow
+      }} />
+      <FloatingIcons/>
+      <DefaultNavbar routes={routes} sticky />
       <Routes>
         {getRoutes(routes)}
         <Route path="/presentation" element={<Presentation />} />
         <Route path="*" element={<Navigate to="/presentation" />} />
       </Routes>
+      <DefaultFooter content={footerRoutes} />
     </ThemeProvider>
   );
 }

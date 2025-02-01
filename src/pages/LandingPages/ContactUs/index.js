@@ -1,74 +1,33 @@
-/*
-=========================================================
-* Material Kit 2 React - v2.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
-// @mui material components
+import React from "react";
+import { useTranslation } from "react-i18next";
 import Grid from "@mui/material/Grid";
-
-// Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKInput from "components/MKInput";
 import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";
-
-// Material Kit 2 React examples
-import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-import DefaultFooter from "examples/Footers/DefaultFooter";
-
-// Routes
-import routes from "routes";
-import footerRoutes from "footer.routes";
-
-// Image
 import bgImage from "assets/images/illustrations/illustration-reset.jpg";
 
 function ContactUs() {
+  const { t } = useTranslation();
+
   return (
     <>
-      <MKBox position="fixed" top="0.5rem" width="100%">
-        <DefaultNavbar
-          routes={routes}
-          action={{
-            type: "external",
-            route: "https://www.creative-tim.com/product/material-kit-react",
-            label: "free download",
-            color: "info",
-          }}
-        />
-      </MKBox>
       <Grid container spacing={3} alignItems="center">
-        <Grid item xs={12} lg={6}>
+        {/* Left Side - Image */}
+        <Grid item xs={12} lg={6} display="flex" justifyContent="center">
           <MKBox
             display={{ xs: "none", lg: "flex" }}
-            width="calc(100% - 2rem)"
+            width="100%"
             height="calc(100vh - 2rem)"
             borderRadius="lg"
             ml={2}
             mt={2}
-            sx={{ backgroundImage: `url(${bgImage})` }}
+            sx={{ backgroundImage: `url(${bgImage})`, backgroundSize: "cover", backgroundPosition: "center" }}
           />
         </Grid>
-        <Grid
-          item
-          xs={12}
-          sm={10}
-          md={7}
-          lg={6}
-          xl={4}
-          ml={{ xs: "auto", lg: 6 }}
-          mr={{ xs: "auto", lg: 6 }}
-        >
+
+        {/* Right Side - Contact Form */}
+        <Grid item xs={12} lg={6} display="flex" justifyContent="center">
           <MKBox
             bgColor="white"
             borderRadius="xl"
@@ -76,10 +35,12 @@ function ContactUs() {
             display="flex"
             flexDirection="column"
             justifyContent="center"
-            mt={{ xs: 20, sm: 18, md: 20 }}
-            mb={{ xs: 20, sm: 18, md: 20 }}
+            mt={{ xs: 10, md: 15 }}
+            mb={{ xs: 10, md: 15 }}
             mx={3}
+            width="100%"
           >
+            {/* Header */}
             <MKBox
               variant="gradient"
               bgColor="info"
@@ -90,20 +51,21 @@ function ContactUs() {
               mt={-3}
             >
               <MKTypography variant="h3" color="white">
-                Contact us
+                {t("contact.title")}
               </MKTypography>
             </MKBox>
+
+            {/* Form Section */}
             <MKBox p={3}>
               <MKTypography variant="body2" color="text" mb={3}>
-                For further questions, including partnership opportunities, please email
-                hello@creative-tim.com or contact using our contact form.
+                {t("contact.description")}
               </MKTypography>
               <MKBox width="100%" component="form" method="post" autoComplete="off">
                 <Grid container spacing={3}>
                   <Grid item xs={12} md={6}>
                     <MKInput
                       variant="standard"
-                      label="Full Name"
+                      label={t("contact.fullName")}
                       InputLabelProps={{ shrink: true }}
                       fullWidth
                     />
@@ -112,7 +74,7 @@ function ContactUs() {
                     <MKInput
                       type="email"
                       variant="standard"
-                      label="Email"
+                      label={t("contact.email")}
                       InputLabelProps={{ shrink: true }}
                       fullWidth
                     />
@@ -120,8 +82,8 @@ function ContactUs() {
                   <Grid item xs={12}>
                     <MKInput
                       variant="standard"
-                      label="What can we help you?"
-                      placeholder="Describe your problem in at least 250 characters"
+                      label={t("contact.message")}
+                      placeholder={t("contact.placeholder")}
                       InputLabelProps={{ shrink: true }}
                       multiline
                       fullWidth
@@ -131,7 +93,7 @@ function ContactUs() {
                 </Grid>
                 <Grid container item justifyContent="center" xs={12} mt={5} mb={2}>
                   <MKButton type="submit" variant="gradient" color="info">
-                    Send Message
+                    {t("contact.submit")}
                   </MKButton>
                 </Grid>
               </MKBox>
@@ -139,9 +101,6 @@ function ContactUs() {
           </MKBox>
         </Grid>
       </Grid>
-      <MKBox pt={6} px={1} mt={6}>
-        <DefaultFooter content={footerRoutes} />
-      </MKBox>
     </>
   );
 }

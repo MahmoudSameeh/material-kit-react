@@ -24,8 +24,6 @@ import MKTypography from "components/MKTypography";
 import MKSocialButton from "components/MKSocialButton";
 
 // Material Kit 2 React examples
-import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-import DefaultFooter from "examples/Footers/DefaultFooter";
 import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
 
 // Presentation page sections
@@ -49,16 +47,6 @@ import bgImage from "assets/images/bg-presentation.jpg";
 function Presentation() {
   return (
     <>
-      <DefaultNavbar
-        routes={routes}
-        action={{
-          type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "free download",
-          color: "info",
-        }}
-        sticky
-      />
       <MKBox
         minHeight="75vh"
         width="100%"
@@ -215,9 +203,6 @@ function Presentation() {
           </Container>
         </MKBox>
       </Card>
-      <MKBox pt={6} px={1} mt={6}>
-        <DefaultFooter content={footerRoutes} />
-      </MKBox>
     </>
   );
 }

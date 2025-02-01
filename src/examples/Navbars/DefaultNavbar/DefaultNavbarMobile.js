@@ -28,12 +28,14 @@ import MuiLink from "@mui/material/Link";
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
+import { useTranslation } from 'react-i18next';
 
 // Material Kit 2 React example components
 import DefaultNavbarDropdown from "examples/Navbars/DefaultNavbar/DefaultNavbarDropdown";
 
 function DefaultNavbarMobile({ routes, open }) {
   const [collapse, setCollapse] = useState("");
+  const { t } = useTranslation();
 
   const handleSetCollapse = (name) => (collapse === name ? setCollapse(false) : setCollapse(name));
 
@@ -41,10 +43,10 @@ function DefaultNavbarMobile({ routes, open }) {
     ({ name, icon, collapse: routeCollapses, href, route, collapse: navCollapse }) => (
       <DefaultNavbarDropdown
         key={name}
-        name={name}
+        name={t(name)}
         icon={icon}
         collapseStatus={name === collapse}
-        onClick={() => handleSetCollapse(name)}
+        // onClick={() => handleSetCollapse(name)}
         href={href}
         route={route}
         collapse={Boolean(navCollapse)}

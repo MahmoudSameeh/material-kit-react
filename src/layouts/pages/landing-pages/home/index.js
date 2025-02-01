@@ -1,4 +1,4 @@
-/**
+/*
 =========================================================
 * Material Kit 2 React - v2.1.0
 =========================================================
@@ -13,22 +13,9 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-import React from "react";
-import * as ReactDOMClient from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
-import App from "App";
-import { I18nextProvider } from 'react-i18next';
-import i18n from './i18n'; // Import i18n configuration
+// Material Kit 2 React pages
+import Home from "pages/LandingPages/Home";
 
-const container = document.getElementById("root");
-
-// Create a root.
-const root = ReactDOMClient.createRoot(container);
-
-root.render(
-  <BrowserRouter>
-    <I18nextProvider i18n={i18n}>
-    <App />
-    </I18nextProvider>
-  </BrowserRouter>
-);
+export default function AboutUsPage() {
+  return <Home />;
+}

@@ -55,33 +55,6 @@ function Featuring() {
             <MKBox component="img" src={vodafone} alt="vodafone" width="100%" opacity={0.7} />
           </Grid>
         </Grid>
-        <Grid container justifyContent="center" sx={{ textAlign: "center" }}>
-          <Grid item xs={12} md={3}>
-            <DefaultCounterCard
-              count={5234}
-              separator=","
-              title="Projects"
-              description="Of “high-performing” level are led by a certified project manager"
-            />
-          </Grid>
-          <Grid item xs={12} md={3}>
-            <DefaultCounterCard
-              count={3400}
-              separator=","
-              suffix="+"
-              title="Hours"
-              description="That meets quality standards required by our users"
-            />
-          </Grid>
-          <Grid item xs={12} md={3}>
-            <DefaultCounterCard
-              count={24}
-              suffix="/7"
-              title="Support"
-              description="Actively engage team members that finishes on time"
-            />
-          </Grid>
-        </Grid>
       </Container>
     </MKBox>
   );
