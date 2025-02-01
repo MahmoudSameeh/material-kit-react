@@ -79,8 +79,7 @@ export default function App() {
       <DefaultNavbar routes={routes} sticky />
       <Routes>
         {getRoutes(routes)}
-        <Route path="/presentation" element={<Presentation />} />
-        <Route path="*" element={<Navigate to="/presentation" />} />
+        <Route path="*" element={<Navigate to="/pages/landing-pages/home" />} />
       </Routes>
       <DefaultFooter content={footerRoutes} />
     </ThemeProvider>
