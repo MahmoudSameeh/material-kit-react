@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/material-kit-react/static/css/main.f9114b13.css",
+    "main.js": "/material-kit-react/static/js/main.c40b0b7b.js",
+    "static/js/38.dc16c809.chunk.js": "/material-kit-react/static/js/38.dc16c809.chunk.js",
+    "static/media/rotating-card-bg-front.jpeg": "/material-kit-react/static/media/rotating-card-bg-front.bdcdfadc0dacb9bc5f23.jpeg",
+    "static/media/mahmoud-ali.png": "/material-kit-react/static/media/mahmoud-ali.ff22ed40cb037c29f466.png",
+    "static/media/city-profile.jpg": "/material-kit-react/static/media/city-profile.4d64bba97c3d1757379e.jpg",
+    "static/media/bg-presentation.jpg": "/material-kit-react/static/media/bg-presentation.889630297390d27e8dfb.jpg",
+    "static/media/rotating-card-bg-back.jpeg": "/material-kit-react/static/media/rotating-card-bg-back.183088de91adb283a9ae.jpeg",
+    "static/media/blog-9-4.jpg": "/material-kit-react/static/media/blog-9-4.de736e0b751f453415a5.jpg",
+    "static/media/illustration-reset.jpg": "/material-kit-react/static/media/illustration-reset.c5f36c0c2262b9ad6165.jpg",
+    "static/media/waves-white.svg": "/material-kit-react/static/media/waves-white.dcb2ce8579b019d0f73a64c138dae945.svg",
+    "static/media/blog2.jpg": "/material-kit-react/static/media/blog2.aba7a3cb94805e9557d1.jpg",
+    "static/media/clinic-image.jpg": "/material-kit-react/static/media/clinic-image.1453524b6309eb0bc643.jpg",
+    "static/media/testimonial-6-2.jpg": "/material-kit-react/static/media/testimonial-6-2.21f2048f0b89919090f0.jpg",
+    "static/media/testimonial-6-3.jpg": "/material-kit-react/static/media/testimonial-6-3.d35bef0d65354442d063.jpg",
+    "static/media/ahmed-dahy.webp": "/material-kit-react/static/media/ahmed-dahy.aa323efde2286da80097.webp",
+    "static/media/orthodontics.webp": "/material-kit-react/static/media/orthodontics.18883b5eb3ed3d7ec547.webp",
+    "static/media/dental-implant.jpeg": "/material-kit-react/static/media/dental-implant.05744f7a7901a1ec5a09.jpeg",
+    "static/media/omar-gameel.webp": "/material-kit-react/static/media/omar-gameel.044011fa7521c50d61ee.webp",
+    "static/media/second-backend-image.jpg": "/material-kit-react/static/media/second-backend-image.635b9c1670868ad82350.jpg",
+    "static/media/bruce-mars.jpg": "/material-kit-react/static/media/bruce-mars.8a606c4a6dab54c9ceff.jpg",
+    "static/media/mahmoud-atef.jpg": "/material-kit-react/static/media/mahmoud-atef.9fc5997433c7c5d988c3.jpg",
+    "static/media/logo-digitalocean.svg": "/material-kit-react/static/media/logo-digitalocean.2a34c59e2d333aeeaef95fd474297765.svg",
+    "static/media/logo-vodafone.svg": "/material-kit-react/static/media/logo-vodafone.64bd2eee2378660390ef68598cd9220c.svg",
+    "static/media/logo-facebook.svg": "/material-kit-react/static/media/logo-facebook.628f2a8a471009dffecd3ea2745e37b0.svg",
+    "static/media/logo-apple.svg": "/material-kit-react/static/media/logo-apple.1098fa39e472270297c7c8a2dce460ad.svg",
+    "static/media/logo-nasa.svg": "/material-kit-react/static/media/logo-nasa.b4e79ad93e48f27643c48621609ba18b.svg",
+    "static/media/slick.svg": "/material-kit-react/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/material-kit-react/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/material-kit-react/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/material-kit-react/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/material-kit-react/index.html",
+    "main.f9114b13.css.map": "/material-kit-react/static/css/main.f9114b13.css.map",
+    "main.c40b0b7b.js.map": "/material-kit-react/static/js/main.c40b0b7b.js.map",
+    "38.dc16c809.chunk.js.map": "/material-kit-react/static/js/38.dc16c809.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9114b13.css",
+    "static/js/main.c40b0b7b.js"
+  ]
+}

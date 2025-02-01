@@ -1,0 +1,169 @@
+{
+    "home": {
+      "title": "Your Trusted Dental Care",
+      "subtitle": "We're here to keep your smile healthy and beautiful. Trusted by hundreds of families.",
+      "bookAppointment": "Book an Appointment",
+      "ourServices": "Our Services",
+      "previous": "Previous",
+      "next": "Next",
+      "meetOurTeam": "Meet Our Expert Team",
+      "teamDescription": "Our team is dedicated to providing you with top-quality dental care and personalized treatments.",
+      "getInTouch": "Get in Touch with Us",
+      "contactMessage": "If you have any questions or want to schedule an appointment, please fill out the form below.",
+      "form": {
+        "fullName": "Full Name",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "message": "Message",
+        "send": "Send Message"
+      }
+    },
+    "services": {
+      "title":"Services",
+      "learnMore":"Learn More",
+      "generalDentistry": {
+        "title": "General Dentistry",
+        "description": "Routine check-ups, cleanings, fillings, and preventive care."
+      },
+      "orthodontics": {
+        "title": "Orthodontics",
+        "description": "Braces, retainers, and other teeth alignment services."
+      },
+      "cosmeticDentistry": {
+        "title": "Cosmetic Dentistry",
+        "description": "Teeth whitening, veneers, bonding, and smile makeovers."
+      },
+      "pediatricDentistry": {
+        "title": "Pediatric Dentistry",
+        "description": "Specialized dental care for children, including first visits."
+      },
+      "periodontics": {
+        "title": "Periodontics",
+        "description": "Treatment of gum disease and other conditions affecting the gums."
+      },
+      "endodontics": {
+        "title": "Endodontics",
+        "description": "Root canal therapy and treatment of dental pulp issues."
+      },
+      "oralSurgery": {
+        "title": "Oral Surgery",
+        "description": "Surgical procedures including tooth extractions and jaw surgery."
+      },
+      "dentalImplants": {
+        "title": "Dental Implants",
+        "description": "Permanent solutions for missing teeth using titanium implants."
+      },
+      "teethWhitening": {
+        "title": "Teeth Whitening",
+        "description": "Professional whitening treatments for a brighter smile."
+      },
+      "sedationDentistry": {
+        "title": "Sedation Dentistry",
+        "description": "Anxiety-free dental care using sedation techniques."
+      },
+      "crownsBridges": {
+        "title": "Dental Crowns and Bridges",
+        "description": "Restorative solutions for damaged or missing teeth."
+      },
+      "oralHygieneEducation": {
+        "title": "Oral Hygiene Education",
+        "description": "Guidance on proper brushing, flossing, and oral care routines."
+      }
+    },
+    "team": {
+      "drMahmoudAtef": {
+        "name": "Dr. Mahmoud Atef",
+        "specialty": "General Dentist",
+        "description": "Dr. Mahmoud specializes in preventive care, general dental procedures, and patient education."
+      },
+      "drAhmedDahy": {
+        "name": "Dr. Ahmed Dahy",
+        "specialty": "Orthodontist",
+        "description": "Dr. Ahmed is an expert in orthodontics, offering solutions like braces and aligners for a perfect smile."
+      },
+      "drMahmoudAli": {
+        "name": "Dr. Mahmoud Ali",
+        "specialty": "Cosmetic Dentist",
+        "description": "Dr. Mahmoud focuses on cosmetic dentistry, helping patients enhance their smile with treatments like teeth whitening and veneers."
+      },
+      "drOmarGameel": {
+        "name": "Dr. Omar Gameel",
+        "specialty": "Pediatric Dentist",
+        "description": "Dr. Omar specializes in pediatric dentistry, offering gentle and caring dental care for children."
+      },
+      "header": "Meet Our Expert Team",
+      "description": "Our team is dedicated to providing you with top-quality dental care and personalized treatments."
+    },
+    "about": {
+    "title": "About Us",
+    "subtitle": "Where Smiles Shine Brighter",
+    "visitClinic": "Visit Our Clinic",
+    "location": "We are located at **Obour City (9th District - Abbas El Akkad Street - Medical Destination Mall - Clinic G7), Cairo, Egypt**. Our team is ready to provide the best dental care. Come visit us!",
+    "appointmentHours": "Appointment Hours",
+    "available": "(available 24/7)",
+    "workingHours": "Saturday - Thursday: **9:00 AM - 12:00 PM**",
+    "phone": "Phone",
+    "email": "Email"
+  },
+  "features": {
+      "title": "About Our Dental Clinic",
+      "description": "At our clinic, we believe that a healthy smile is a reflection of overall well-being. Our team is dedicated to providing compassionate, high-quality dental care to every patient. From preventive treatments to advanced cosmetic procedures, we ensure your dental health is our top priority.",
+      "services": [
+        {
+          "icon": "medical_services",
+          "text": "Comprehensive dental exams and cleanings to keep your smile healthy and bright."
+        },
+        {
+          "icon": "medical_services",
+          "text": "State-of-the-art cosmetic and restorative treatments tailored to your needs."
+        },
+        {
+          "icon": "emoji_people",
+          "text": "A friendly and welcoming environment where patient comfort comes first."
+        }
+      ]
+    },
+    "contact": {
+    "title": "Contact Us At Lumina Dental Studio",
+    "description": "For appointments, inquiries, or patient support, please reach out to us via the form below.",
+    "fullName": "Full Name",
+    "email": "Email",
+    "message": "How can we assist you?",
+    "placeholder": "Describe your concern or appointment request",
+    "submit": "Send Message"
+  },
+  "cases": {
+    "title": "Our Dental Cases",
+    "description": "Explore some of our successful dental treatments. Our team specializes in various dental procedures to provide the best care for our patients.",
+    "teethWhitening": {
+      "title": "Teeth Whitening",
+      "description": "This case showcases how our professional teeth whitening treatments helped the patient achieve a bright, confident smile."
+    },
+    "orthodontics": {
+      "title": "Orthodontics",
+      "description": "This case highlights the transformation of a patient's smile with our orthodontic treatments, including braces and aligners."
+    },
+    "implants": {
+      "title": "Dental Implants",
+      "description": "Our dental implant procedure restored the patient's smile and dental function, providing a permanent solution for missing teeth."
+    },
+    "learnMore": "Learn More"
+  },
+  "routes": {
+    "home": "Home",
+    "aboutUs": "About Us",
+    "contactUs": "Contact Us",
+    "ourCases": "Our Cases"
+  },
+  "dentalCard": {
+    "title": "Experience the Best Dental Care",
+    "subtitle": "Your Smile, Our Priority",
+    "description": "We offer top-notch dental services to help you maintain a healthy smile. From routine check-ups to advanced treatments, we've got you covered.",
+    "learnMore": "Discover Our Services",
+    "details": "We provide comprehensive dental care including teeth whitening, cosmetic dentistry, and more. Visit us for a consultation.",
+    "bookNow": "Book an Appointment"
+  }
+  
+  
+  }
+  
