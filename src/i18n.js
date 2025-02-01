@@ -15,7 +15,7 @@ i18n
   .init({
     debug: false,
     fallbackLng: 'en',
-    supportedLngs: ["en", "es"], // *** added this ***
+    supportedLngs: ["en", "ar"], // Fix 'es' -> 'ar'
     ns: ['translation'],
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
