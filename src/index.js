@@ -24,7 +24,7 @@ const container = document.getElementById("root");
 
 // Create a root.
 const root = ReactDOMClient.createRoot(container);
-console.log("/material-kit-react")
+
 root.render(
   <BrowserRouter basename="/material-kit-react">
     <I18nextProvider i18n={i18n}>

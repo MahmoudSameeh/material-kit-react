@@ -38,7 +38,7 @@ import LanguageSwitcher from "components/LanguageSwitcher/LanguageSwitcher";
 export default function App() {
   const { pathname } = useLocation();
   const { i18n } = useTranslation();
-console.log(pathname);
+
   useEffect(() => {
     const lang = i18n.language; // Get the current language
     document.body.dir = lang === 'ar' ? 'rtl' : 'ltr'; // Apply RTL or LTR based on language
