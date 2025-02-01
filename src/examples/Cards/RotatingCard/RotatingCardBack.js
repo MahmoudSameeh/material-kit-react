@@ -1,25 +1,5 @@
-/*
-=========================================================
-* Material Kit 2 React - v2.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
-// prop-types is a library for typechecking of props.
 import PropTypes from "prop-types";
-
-// react-router-dom components
 import { Link } from "react-router-dom";
-
-// @mui material components
 import MuiLink from "@mui/material/Link";
 
 // Material Kit 2 React components
@@ -42,12 +22,9 @@ function RotatingCard({ color, image, title, description, action }) {
       left={0}
       zIndex={5}
       sx={{
-        backgroundImage: ({ palette: { gradients }, functions: { linearGradient, rgba } }) =>
-          `${linearGradient(
-            rgba(gradients[color] ? gradients[color].main : gradients.info.main, 0.85),
-            rgba(gradients[color] ? gradients[color].main : gradients.info.main, 0.85)
-          )}, url(${image})`,
+        backgroundImage: `url(${image})`, // Removed the gradient overlay
         backgroundSize: "cover",
+        backgroundPosition: "center",
         backfaceVisibility: "hidden",
         transform: "rotateY(180deg)",
       }}
@@ -105,13 +82,13 @@ RotatingCard.propTypes = {
   image: PropTypes.string.isRequired,
   title: PropTypes.node.isRequired,
   description: PropTypes.node.isRequired,
-  action: PropTypes.oneOfType([
-    PropTypes.bool,
-    PropTypes.shape({
-      type: PropTypes.oneOf(["external", "internal"]).isRequired,
-      route: PropTypes.string.isRequired,
-      label: PropTypes.string.isRequired,
-    }),
+  action: PropTypes.oneOfType([ 
+    PropTypes.bool, 
+    PropTypes.shape({ 
+      type: PropTypes.oneOf(["external", "internal"]).isRequired, 
+      route: PropTypes.string.isRequired, 
+      label: PropTypes.string.isRequired, 
+    }) 
   ]).isRequired,
 };
 

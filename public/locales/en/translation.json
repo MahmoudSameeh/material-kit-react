@@ -154,6 +154,14 @@
     "aboutUs": "About Us",
     "contactUs": "Contact Us",
     "ourCases": "Our Cases"
+  },
+  "dentalCard": {
+    "title": "Experience the Best Dental Care",
+    "subtitle": "Your Smile, Our Priority",
+    "description": "We offer top-notch dental services to help you maintain a healthy smile. From routine check-ups to advanced treatments, we've got you covered.",
+    "learnMore": "Discover Our Services",
+    "details": "We provide comprehensive dental care including teeth whitening, cosmetic dentistry, and more. Visit us for a consultation.",
+    "bookNow": "Book an Appointment"
   }
   
   

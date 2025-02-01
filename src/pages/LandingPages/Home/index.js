@@ -11,6 +11,16 @@ import ContactForm from "pages/LandingPages/AboutUs/sections/ContactForm";
 import bgImage from "assets/images/clinic-image.jpg";
 import { useTranslation } from "react-i18next";
 import i18n from 'i18next';
+// Material Kit 2 React examples
+import RotatingCard from "examples/Cards/RotatingCard";
+import RotatingCardFront from "examples/Cards/RotatingCard/RotatingCardFront";
+import RotatingCardBack from "examples/Cards/RotatingCard/RotatingCardBack";
+
+// Images
+import bgFront from "assets/images/backgroundToothTools.jpg";
+import bgBack from "assets/images/second-backend-image.jpg";
+import SpecialOffers from "../AboutUs/sections/SpecialOffers";
+import GallerySection from "../AboutUs/sections/ClinicGallery";
 
 function Home() {
   const { t } = useTranslation();
@@ -29,6 +39,7 @@ function Home() {
         }}
       >
         <Container>
+
           <Grid
             container
             item
@@ -73,8 +84,35 @@ function Home() {
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
+        <RotatingCard>
+          <RotatingCardFront
+            image={bgFront}
+            icon="local_hospital"  // Changed to a dental icon
+            title={
+              <>
+                {t("dentalCard.title")}
+                <br />
+                {t("dentalCard.subtitle")}
+              </>
+            }
+            description={t("dentalCard.description")}
+          />
+          <RotatingCardBack
+            image={bgBack}
+            title={t("dentalCard.learnMore")}
+            description={t("dentalCard.details")}
+            action={{
+              type: "internal",
+              route: "/appointments",
+              label: t("dentalCard.bookNow")
+            }}
+          />
+        </RotatingCard>
         <Services />
         <Team />
+        <SpecialOffers />
+        <GallerySection />
+
         <ContactForm />
       </Card>
     </>

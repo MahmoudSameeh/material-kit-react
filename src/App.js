@@ -66,12 +66,13 @@ export default function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <LanguageSwitcher  sx={{
-        position: 'absolute',  // Fix to the top left
-        top: 10,               // Distance from top
-        left: 10,              // Distance from left
-        zIndex: 1000,          // Ensure it's above other elements
-        backgroundColor: 'white', // Optional: makes it visible
-        boxShadow: 1,            // Optional: adds subtle shadow
+         position: 'fixed',  // Makes the button fixed on the screen
+         top: 10,            // Distance from the top
+         left: 10,           // Distance from the left
+         zIndex: 1000,       // Ensures the button is above other elements
+         backgroundColor: 'white', // Optional: makes the button background visible
+         boxShadow: 1,       // Optional: adds subtle shadow to the button
+         padding: '5px',     // Optional: adds padding for better appearance
       }} />
       <FloatingIcons/>
       <DefaultNavbar routes={routes} sticky />

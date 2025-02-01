@@ -75,8 +75,8 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
 
   const renderNavbarItems = routes.map(({ name, icon, href, route, collapse }) => (
     <DefaultNavbarDropdown
-      key={t(name)}
-      name={name}
+      key={name}
+      name={t(name)}
       icon={icon}
       href={href}
       route={route}
