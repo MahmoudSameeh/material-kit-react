@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/material-kit-react/static/css/main.f9114b13.css",
-    "main.js": "/material-kit-react/static/js/main.c49297e7.js",
+    "main.js": "/material-kit-react/static/js/main.35e054b5.js",
     "static/js/38.dc16c809.chunk.js": "/material-kit-react/static/js/38.dc16c809.chunk.js",
     "static/media/rotating-card-bg-front.jpeg": "/material-kit-react/static/media/rotating-card-bg-front.bdcdfadc0dacb9bc5f23.jpeg",
     "static/media/mahmoud-ali.png": "/material-kit-react/static/media/mahmoud-ali.ff22ed40cb037c29f466.png",
@@ -33,11 +33,11 @@
     "static/media/slick.woff": "/material-kit-react/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/material-kit-react/index.html",
     "main.f9114b13.css.map": "/material-kit-react/static/css/main.f9114b13.css.map",
-    "main.c49297e7.js.map": "/material-kit-react/static/js/main.c49297e7.js.map",
+    "main.35e054b5.js.map": "/material-kit-react/static/js/main.35e054b5.js.map",
     "38.dc16c809.chunk.js.map": "/material-kit-react/static/js/38.dc16c809.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f9114b13.css",
-    "static/js/main.c49297e7.js"
+    "static/js/main.35e054b5.js"
   ]
 }
